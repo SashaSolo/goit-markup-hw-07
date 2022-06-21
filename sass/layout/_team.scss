@@ -1,24 +1,24 @@
-.team {
+.section__team {
   background-color: #f5f4fa;
 }
 
-.team-title {
+.team__title {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   color: var(--second-title-color);
 }
 
-.team-list {
+.team__list {
   display: flex;
   margin-top: 50px;
 }
 
-.team-item:not(:last-child) {
+.team__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.team-decoration {
+.employee-card {
   background-color: #ffffff;
   width: 270px;
   height: 428px;
@@ -27,12 +27,12 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-.container-text {
+.employee-info {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.teammate-name {
+.employee-info__name {
   font-weight: 500;
   font-size: var(--font-size-main);
   line-height: 1.18;
@@ -40,7 +40,7 @@
   color: var(--second-title-color);
 }
 
-.teammate-position {
+.employee-info__position {
   margin-top: 10px;
   margin-bottom: 16px;
   font-size: var(--font-size-main);
@@ -49,22 +49,22 @@
   color: var(--main-text-color);
 }
 
-.teammate-soc-list {
+.employee-info__soc-list {
   display: flex;
   justify-content: center;
 }
 
-.teammate-soc-item {
+.employee-info__soc-item {
   width: 44px;
   height: 44px;
   margin-right: 10px;
 }
 
-.teammate-soc-item:last-child {
+.employee-info__soc-item:last-child {
   margin-right: 0;
 }
 
-.teammate-soc-link {
+.employee-info__soc-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,8 +78,8 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.teammate-soc-link:hover,
-.teammate-soc-link:focus {
+.employee-info__soc-link:hover,
+.employee-info__soc-link:focus {
   background-color: var(--accent-color);
   fill: #ffffff;
   outline-style: none;
