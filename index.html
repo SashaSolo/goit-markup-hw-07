@@ -13,7 +13,13 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="./css/main.min.css"
+      <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -24,35 +30,37 @@
     <!-- Шапка сайта -->
 
     <header class="header">
-      <div class="container">
-        <a class="header-logo-main link" href="./"
-          ><span class="header-logo-blue link">Web</span>Studio</a
+      <div class="container header__container">
+        <a class="logo link" href="./"
+          ><span class="logo__text--color link">Web</span>Studio</a
         >
-        <nav class="header-nav">
-          <ul class="header-list list">
-            <li class="header-item">
-              <a class="nav-link link current" href="index.html">Студия</a>
+        <nav class="nav">
+          <ul class="nav__list list">
+            <li class="nav__item">
+              <a class="link nav__link nav__link--current" href="index.html"
+                >Студия</a
+              >
             </li>
-            <li class="header-item">
-              <a class="nav-link link" href="portfolio.html">Портфолио</a>
+            <li class="nav__item">
+              <a class="link nav__link" href="portfolio.html">Портфолио</a>
             </li>
-            <li class="header-item">
-              <a class="nav-link link" href="./">Контакты</a>
+            <li class="nav__item">
+              <a class="link nav__link" href="./">Контакты</a>
             </li>
           </ul>
         </nav>
-        <div class="header-contacts">
-          <ul class="header-contacts-list list">
-            <li class="header-contacts-item">
-              <a class="header-contacts link" href="mailto:info@devstudio.com"
-                ><svg class="header-icon" width="16" height="12">
+        <div class="contacts">
+          <ul class="contacts__list list">
+            <li class="contacts__item--mail">
+              <a class="contacts__link link" href="mailto:info@devstudio.com"
+                ><svg class="contacts__icon" width="16" height="12">
                   <use href="./images/icon.svg#icon-envelope"></use></svg
                 >info@devstudio.com</a
               >
             </li>
-            <li class="header-item">
-              <a class="header-contacts link" href="tel:+380961111111"
-                ><svg class="header-icon" width="10" height="16">
+            <li class="contacts__item--tell">
+              <a class="contacts__link link" href="tel:+380961111111"
+                ><svg class="contacts__icon" width="10" height="16">
                   <use href="./images/icon.svg#icon-smartphone"></use></svg
                 >+38 096 111 11 11</a
               >
@@ -68,48 +76,46 @@
       <!-- Герой -->
 
       <section class="hero">
-        <div class="container">
-          <div class="hero-content">
-            <h1 class="hero-title">
-              Эффективные решения <br />
-              для вашего бизнеса
-            </h1>
-            <button class="hero-button btn" type="button" data-modal-open>
-              Заказать услугу
-            </button>
-          </div>
+        <div class="container hero__container">
+          <h1 class="hero__title">
+            Эффективные решения <br />
+            для вашего бизнеса
+          </h1>
+          <button class="hero__button btn" type="button" data-modal-open>
+            Заказать услугу
+          </button>
         </div>
       </section>
 
       <!-- Особенности -->
 
-      <section class="section spec">
+      <section class="section features__section">
         <div class="container">
-          <ul class="spec-list list">
-            <li class="spec-item antenna-1">
-              <h3 class="spec-title">Внимание к деталям</h3>
-              <p class="spec-about">
+          <ul class="features__list list">
+            <li class="features__item icon--antenna">
+              <h3 class="features__title">Внимание к деталям</h3>
+              <p class="features__about">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="spec-item clock-1">
-              <h3 class="spec-title">Пунктуальность</h3>
-              <p class="spec-about">
+            <li class="features__item icon--clock">
+              <h3 class="features__title">Пунктуальность</h3>
+              <p class="features__about">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="spec-item diagram-1">
-              <h3 class="spec-title">Планирование</h3>
-              <p class="spec-about">
+            <li class="features__item icon--diagram">
+              <h3 class="features__title">Планирование</h3>
+              <p class="features__about">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li class="spec-item astronaut-1">
-              <h3 class="spec-title">Современные технологии</h3>
-              <p class="spec-about">
+            <li class="features__item icon--astronaut">
+              <h3 class="features__title">Современные технологии</h3>
+              <p class="features__about">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
