@@ -1,11 +1,12 @@
-@import "./utlis/vars";
+@import "./utils/vars";
+@import "./utils/hidden";
 @import "./base/reset";
+@import "./base/common";
 
 @import "./components/container";
-@import "./components/link";
-@import "./components/list";
 @import "./components/section";
-@import "./components/visually-hidden";
+@import "./components/button";
+@import "./components/modal";
 
 @import "./layout/header";
 @import "./layout/hero";
@@ -13,8 +14,6 @@
 @import "./layout/directions";
 @import "./layout/team";
 @import "./layout/customer";
-@import "./layout/portfolio-project";
-@import "./layout/portfolio-project-button";
 @import "./layout/portfolio-project-cards";
+@import "./layout/portfolio-project-button";
 @import "./layout/footer";
-@import "./layout/modal";

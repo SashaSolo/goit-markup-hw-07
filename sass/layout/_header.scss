@@ -2,12 +2,21 @@
   border-bottom: 1px solid #ececec;
 }
 
+.header__container {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
 .logo {
   color: #000000;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+}
+
+.header__logo {
   margin-right: 94px;
 }
 
@@ -17,12 +26,6 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-}
-
-.header__container {
-  display: flex;
-  align-items: center;
-  height: 80px;
 }
 
 .nav__list {
