@@ -58,10 +58,10 @@
   width: 44px;
   height: 44px;
   margin-right: 10px;
-}
 
-.employee-info__soc-item:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .employee-info__soc-link {
@@ -76,11 +76,11 @@
   transition-property: background-color, fill, outline-style;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.employee-info__soc-link:hover,
-.employee-info__soc-link:focus {
-  background-color: var(--accent-color);
-  fill: #ffffff;
-  outline-style: none;
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    fill: #ffffff;
+    outline-style: none;
+  }
 }

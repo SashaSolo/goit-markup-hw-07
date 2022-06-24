@@ -8,22 +8,21 @@
 
 .features__item {
   flex-basis: calc(100% / 4);
-}
 
-.features__item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.features__item::before {
-  content: "";
-  display: block;
-  height: 120px;
-  margin-bottom: 30px;
-  border-radius: 4px;
-  background-color: #f5f4fa;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 70px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+  &::before {
+    content: "";
+    display: block;
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    background-color: #f5f4fa;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px;
+  }
 }
 
 .icon--antenna::before {

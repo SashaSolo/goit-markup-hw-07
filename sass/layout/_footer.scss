@@ -47,11 +47,11 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.footer-connect__link:hover,
-.footer-connect__link:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .footer-soc {
@@ -77,10 +77,10 @@
   width: 44px;
   height: 44px;
   margin-right: 10px;
-}
 
-.footer-soc__item:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .footer-soc__link {
@@ -95,13 +95,13 @@
   transition-property: background-color, fill, outline-style;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.footer-soc__link:hover,
-.footer-soc__link:focus {
-  background-color: var(--accent-color);
-  fill: var(--main-title-color);
-  outline-style: none;
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    fill: var(--main-title-color);
+    outline-style: none;
+  }
 }
 
 .footer-mail {
@@ -125,6 +125,7 @@
 .footer-mail__input {
   position: relative;
   padding-left: 16px;
+  margin-right: 12px;
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -132,41 +133,15 @@
   border-radius: 4px;
   background-color: transparent;
   color: #ffffff;
-}
 
-.footer-mail__btn {
-  margin-left: 12px;
-  width: 200px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  background: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border-color: transparent;
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-mail__btn:hover,
-.footer-mail__btn:focus {
-  background-color: #188ce8;
+  &:-webkit-autofill,
+  &:-webkit-autofill:hover,
+  &:-webkit-autofill:focus,
+  &:-webkit-autofill:active {
+    box-shadow: 0 0 0 30px var(--accent-color) inset;
+  }
 }
 
 .footer-mail__icon {
   margin-left: 10px;
-}
-
-.footer-mail__input:-webkit-autofill,
-.footer-mail__input:-webkit-autofill:hover,
-.footer-mail__input:-webkit-autofill:focus,
-.footer-mail__input:-webkit-autofill:active {
-  box-shadow: 0 0 0 30px var(--accent-color) inset;
 }

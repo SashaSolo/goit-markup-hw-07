@@ -20,12 +20,8 @@
   margin-right: 94px;
 }
 
-.logo__text--color {
+.logo--color {
   color: var(--accent-color);
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
 }
 
 .nav__list {
@@ -52,12 +48,12 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.nav__link:hover,
-.nav__link:focus,
-.nav__link:active {
-  color: var(--accent-color);
+  &:hover,
+  &:focus,
+  &:active {
+    color: var(--accent-color);
+  }
 }
 
 .nav__link--current::after {
@@ -80,7 +76,7 @@
   align-items: center;
 }
 
-.contacts__item--mail {
+.contacts__item {
   margin-right: 30px;
 }
 
@@ -93,11 +89,11 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.contacts__link:hover,
-.contacts__link:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .contacts__icon {

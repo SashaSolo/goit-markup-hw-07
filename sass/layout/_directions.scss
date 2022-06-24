@@ -10,12 +10,12 @@
   margin-top: 50px;
 }
 
-.directions__item + .directions__item {
-  margin-left: 30px;
-}
-
 .directions__item {
   position: relative;
+
+  & + & {
+    margin-left: 30px;
+  }
 }
 
 .direction-img {
