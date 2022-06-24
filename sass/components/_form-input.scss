@@ -1,5 +1,9 @@
-.form {
+.form__grid {
   margin-bottom: 10px;
+
+  &:first-child {
+    margin-top: 12px;
+  }
 }
 
 .form__label {

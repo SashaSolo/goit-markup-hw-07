@@ -27,12 +27,12 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-.employee-info {
+.employee-card__info {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.employee-info__name {
+.employee-card__name {
   font-weight: 500;
   font-size: var(--font-size-main);
   line-height: 1.18;
@@ -40,47 +40,11 @@
   color: var(--second-title-color);
 }
 
-.employee-info__position {
+.employee-card__position {
   margin-top: 10px;
   margin-bottom: 16px;
   font-size: var(--font-size-main);
   line-height: 1.18;
   text-align: center;
   color: var(--main-text-color);
-}
-
-.employee-info__soc-list {
-  display: flex;
-  justify-content: center;
-}
-
-.employee-info__soc-item {
-  width: 44px;
-  height: 44px;
-  margin-right: 10px;
-
-  &:last-child {
-    margin-right: 0;
-  }
-}
-
-.employee-info__soc-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  background-color: transparent;
-  border-radius: 50%;
-  fill: #afb1b8;
-  transition-property: background-color, fill, outline-style;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:hover,
-  &:focus {
-    background-color: var(--accent-color);
-    fill: #ffffff;
-    outline-style: none;
-  }
 }
