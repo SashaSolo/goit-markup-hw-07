@@ -394,7 +394,6 @@ body {
 .header {
   border-bottom: 1px solid #ececec;
 }
-
 .header__container {
   display: flex;
   align-items: center;
@@ -460,16 +459,13 @@ body {
 .contacts {
   margin-left: auto;
 }
-
 .contacts__list {
   display: flex;
   align-items: center;
 }
-
 .contacts__item {
   margin-right: 30px;
 }
-
 .contacts__link {
   color: var(--main-text-color);
   font-weight: 500;
@@ -483,7 +479,6 @@ body {
 .contacts__link:hover, .contacts__link:focus {
   color: var(--accent-color);
 }
-
 .contacts__icon {
   margin-right: 10px;
   fill: currentColor;
@@ -498,12 +493,10 @@ body {
   background-position: center;
   background-size: cover;
 }
-
 .hero__container {
   padding-top: 200px;
   padding-bottom: 200px;
 }
-
 .hero__title {
   margin-bottom: 30px;
   font-weight: 900;
@@ -608,22 +601,19 @@ body {
   color: var(--main-title-color);
 }
 
-.section__team {
+.team {
   background-color: #f5f4fa;
 }
-
 .team__title {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   color: var(--second-title-color);
 }
-
 .team__list {
   display: flex;
   margin-top: 50px;
 }
-
 .team__item:not(:last-child) {
   margin-right: 30px;
 }
@@ -635,12 +625,10 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-
 .employee-card__info {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
 .employee-card__name {
   font-weight: 500;
   font-size: var(--font-size-main);
@@ -648,7 +636,6 @@ body {
   text-align: center;
   color: var(--second-title-color);
 }
-
 .employee-card__position {
   margin-top: 10px;
   margin-bottom: 16px;
@@ -741,7 +728,6 @@ body {
   position: relative;
   overflow: hidden;
 }
-
 .project-card__text {
   position: absolute;
   padding: 63px 24px;
@@ -765,14 +751,12 @@ body {
 .card-about {
   padding: 20px 24px;
 }
-
 .card-about__title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--second-title-color);
 }
-
 .card-about__text {
   margin-top: 4px;
   font-size: var(--font-size-main);

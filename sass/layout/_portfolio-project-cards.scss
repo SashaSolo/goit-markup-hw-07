@@ -37,44 +37,44 @@
 .project-card {
   position: relative;
   overflow: hidden;
-}
 
-.project-card__text {
-  position: absolute;
-  padding: 63px 24px;
-  top: 0;
-  height: 100%;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.56;
-  letter-spacing: 0.03em;
-  color: var(--main-title-color);
-  background-color: rgba(33, 150, 243, 0.9);
-  transform: translateY(100%);
-  transition-property: transform;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &__text {
+    position: absolute;
+    padding: 63px 24px;
+    top: 0;
+    height: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+    color: var(--main-title-color);
+    background-color: rgba(33, 150, 243, 0.9);
+    transform: translateY(100%);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  .project-wrap__link:hover &,
-  .project-wrap__link:focus & {
-    transform: translateY(0);
+    .project-wrap__link:hover &,
+    .project-wrap__link:focus & {
+      transform: translateY(0);
+    }
   }
 }
 
 .card-about {
   padding: 20px 24px;
-}
 
-.card-about__title {
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--second-title-color);
-}
+  &__title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--second-title-color);
+  }
 
-.card-about__text {
-  margin-top: 4px;
-  font-size: var(--font-size-main);
-  line-height: 1.88;
-  color: var(--main-text-color);
+  &__text {
+    margin-top: 4px;
+    font-size: var(--font-size-main);
+    line-height: 1.88;
+    color: var(--main-text-color);
+  }
 }

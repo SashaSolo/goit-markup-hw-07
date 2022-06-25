@@ -1,11 +1,11 @@
 .header {
   border-bottom: 1px solid #ececec;
-}
 
-.header__container {
-  display: flex;
-  align-items: center;
-  height: 80px;
+  &__container {
+    display: flex;
+    align-items: center;
+    height: 80px;
+  }
 }
 
 .logo {
@@ -69,34 +69,34 @@
 
 .contacts {
   margin-left: auto;
-}
 
-.contacts__list {
-  display: flex;
-  align-items: center;
-}
-
-.contacts__item {
-  margin-right: 30px;
-}
-
-.contacts__link {
-  color: var(--main-text-color);
-  font-weight: 500;
-  font-size: var(--font-size-second);
-  line-height: 1.15;
-  letter-spacing: 0.02em;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:hover,
-  &:focus {
-    color: var(--accent-color);
+  &__list {
+    display: flex;
+    align-items: center;
   }
-}
 
-.contacts__icon {
-  margin-right: 10px;
-  fill: currentColor;
+  &__item {
+    margin-right: 30px;
+  }
+
+  &__link {
+    color: var(--main-text-color);
+    font-weight: 500;
+    font-size: var(--font-size-second);
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
+  }
+
+  &__icon {
+    margin-right: 10px;
+    fill: currentColor;
+  }
 }
