@@ -1,7 +1,7 @@
 .directions__title {
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
+  text-align: var(--text-align);
   color: var(--second-title-color);
 }
 
@@ -26,11 +26,11 @@
 }
 .direction__text {
   padding: 24px 0px;
-  font-weight: 700;
+  font-weight: var(--font-weight-bold);
   font-size: 14px;
   line-height: 1.15;
-  text-align: center;
-  letter-spacing: 0.03em;
+  text-align: var(--text-align);
+  letter-spacing: var(--letter-spacing-main);
   text-transform: uppercase;
   color: var(--main-title-color);
 }

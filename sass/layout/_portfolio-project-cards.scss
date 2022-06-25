@@ -22,10 +22,10 @@
 .project-wrap {
   width: 370px;
   cursor: pointer;
-  border: 1px solid #eeeeee;
+  border: var(--border) #eeeeee;
   transition-property: box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-timing-function);
 
   &:hover,
   &:focus {
@@ -46,12 +46,12 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 1.56;
-    letter-spacing: 0.03em;
+    letter-spacing: var(--letter-spacing-main);
     color: var(--main-title-color);
     background-color: rgba(33, 150, 243, 0.9);
     transform: translateY(100%);
     transition-property: transform;
-    transition-duration: 250ms;
+    transition-duration: var(--transition-duration);
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
     .project-wrap__link:hover &,

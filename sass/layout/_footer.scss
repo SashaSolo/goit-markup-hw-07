@@ -13,16 +13,16 @@
 }
 
 .footer__logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
+  font-family: var(--font-family-raleway), sans-serif;
+  font-weight: var(--font-weight-bold);
   font-size: 26px;
   line-height: 1.19;
   color: var(--main-title-color);
 }
 
 .footer__logo--color {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
+  font-family: var(--font-family-raleway), sans-serif;
+  font-weight: var(--font-weight-bold);
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
@@ -45,8 +45,8 @@
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
   transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-timing-function);
 
   &:hover,
   &:focus {
@@ -62,7 +62,7 @@
 .footer-socials__text {
   font-size: var(--font-size-second);
   line-height: 1.15;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--letter-spacing-main);
   text-transform: uppercase;
   color: var(--main-title-color);
 }
@@ -73,12 +73,12 @@
 
 .footer-mail__title {
   margin-bottom: 20px;
-  font-weight: 700;
+  font-weight: var(--font-weight-bold);
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--letter-spacing-main);
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--main-title-color);
 }
 
 .footer-mail__container {
@@ -91,11 +91,11 @@
   margin-right: 12px;
   width: 358px;
   height: 50px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: var(--border) rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
+  border-radius: var(--border-radius-main);
   background-color: transparent;
-  color: #ffffff;
+  color: var(--main-title-color);
 
   &:-webkit-autofill,
   &:-webkit-autofill:hover,

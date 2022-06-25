@@ -1,5 +1,5 @@
 .header {
-  border-bottom: 1px solid #ececec;
+  border-bottom: var(--border) #ececec;
 
   &__container {
     display: flex;
@@ -10,8 +10,8 @@
 
 .logo {
   color: #000000;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
+  font-family: var(--font-family-raleway), sans-serif;
+  font-weight: var(--font-weight-bold);
   font-size: 26px;
   line-height: 1.2;
 }
@@ -46,8 +46,8 @@
   letter-spacing: 0.02em;
   padding-bottom: 32px;
   transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-timing-function);
 
   &:hover,
   &:focus,
@@ -86,8 +86,8 @@
     line-height: 1.15;
     letter-spacing: 0.02em;
     transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-timing-function);
 
     &:hover,
     &:focus {

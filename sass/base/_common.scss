@@ -1,6 +1,6 @@
 body {
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 0.03em;
+  font-family: var(--font-family-roboto), sans-serif;
+  letter-spacing: var(--letter-spacing-main);
 }
 
 .link {
